@@ -119,6 +119,10 @@
                         class="fa fa-sun"></span></a>
                </div>
             </div>
+            <div class="language-mode outer radius-1 d-inline-block">
+               <button id="lang-toggle-btn" class="inner radius-1 d-block" type="button"
+                  onclick="toggleLanguage()" title="Switch to English">EN</button>
+            </div>
             <div>
                <!-- TODO: -->
                <!-- <h6 class="text-muted font-weight-400 mb-0">Pick a
@@ -457,9 +461,9 @@
                src="assets/svg/square.svg" alt data-depth="0.5">
          </div>
          <div class="blurred-content"></div>
-         <div class="container spacer-xlg">
-            <div class="row ">
-               <div class="col-lg-9 my-order-switch-1 ">
+         <div class="container spacer-xlg profile-layout-container">
+            <div class="row profile-layout-row">
+               <div class="col-lg-8 my-order-switch-1 profile-main-column">
                   <section id="home"
                      class="shadow bg-dark radius-2 padding-dy text-center ">
                      <div class="row v-height-50 v-centred">
@@ -2854,23 +2858,11 @@
                         </div>
                      </div>
                   </section>
-                  <div class="row mt-4 justify-content-center ">
-                     <div class="text-center shadow-inner radius-2  py-1 px-4">
-                        <p class="font-size-11  mb-0 ">Font by <a
-                              class="text-alt"
-                              href="../../index.htm">flaticon.com</a>
-                           Under <a class="text-alt"
-                              href="../../licenses/by/3.0/index.htm">CC: </a> <a
-                              class="text-alt" href="../../authors/eucalyp.htm"
-                              title="Eucalyp">Eucalyp</a>
-                        </p>
-                     </div>
-                  </div>
                </div>
-               <div class="col-lg-3 pl-lg-0  my-order-switch-2 mb-lg-0 mb-5">
+               <div class="col-lg-4 pl-lg-0 my-order-switch-2 mb-lg-0 mb-5 profile-sidebar-column">
                   <div class="sticky-lg-top">
                      <header
-                        class="shadow bg-dark radius-2 px-4 py-6 text-center ">
+                        class="shadow bg-dark radius-2 px-4 py-6 text-center profile-sidebar-header">
                         <div class="profile-image">
                            <div class="profile-image-border">
                               <img class="rounded-circle"
@@ -3047,9 +3039,6 @@
                               </li>
                            </ul>
                         </nav>
-                        <div class="mt-4 text-center">
-                           <button id="lang-toggle-btn" onclick="toggleLanguage()" title="Switch to English" style="border:none;cursor:pointer;padding:6px 18px;border-radius:6px;font-weight:700;font-size:13px;letter-spacing:1px;background:var(--color-primary,#6c757d);color:#fff;">EN</button>
-                        </div>
                      </header>
                      <div class="text-center mt-5 ">
                         <p class="font-size-14 mb-2 text-alt">Nguyen Khac Binh</p>

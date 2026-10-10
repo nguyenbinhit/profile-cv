@@ -21,7 +21,7 @@
     right: -130px;
     top: 0;
 }
-.styler .toggle a, .styler .day-night-mode a{
+.styler .toggle a, .styler .day-night-mode a, .styler .language-mode button{
     background: #f3f5f8;
     font-size: 22px;
     height: 50px;
@@ -30,6 +30,7 @@
     width: 50px;
     color:#212529;
     line-height: 2.5;
+    padding: 0;
 }
 
 .color-list li {
@@ -115,7 +116,6 @@
 .clr-31 span{background: #82b541 ;}
 .clr-32 span{background: #9197a3 ;}
 .clr-33 span{background: #3b5998 ;}
-
 
 
 
